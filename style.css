@@ -73,10 +73,20 @@ a {
 }
 
 .header__link {
+  max-width: max-content;
   Font-family: "BookmanOldStyle-Regular";
   font-weight: 300;
   Font-size: 14px;
   Line-height: 100%;
+  transition: color 0.3s ease-in-out;
+}
+
+.header__link:focus {
+  outline-color: blue;
+}
+
+.header__link:hover {
+  color: blue;
 }
 
 /* hero */
@@ -146,6 +156,15 @@ a {
   height: 7px;
   border-radius: 7px;
   background-color: #7E678B;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.works__tabs__btn:focus {
+  outline-color: blue;
+}
+
+.works__tabs__btn:hover {
+  background-color: blue;
 }
 
 .btn-1 {

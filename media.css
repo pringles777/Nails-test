@@ -1,4 +1,5 @@
 @media (max-width: 375px) {
+
   html,
   body {
     overflow-x: hidden;
@@ -8,7 +9,7 @@
     max-width: 320px;
     padding: 0 5px;
   }
-  
+
   .header__container {
     padding-top: 10px;
     padding-bottom: 8px;
@@ -16,7 +17,7 @@
 
   .hero__container {
     padding-top: 41px;
-  padding-bottom: 93px;
+    padding-bottom: 93px;
   }
-  
+
 }
