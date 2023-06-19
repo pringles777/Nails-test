@@ -1,0 +1,180 @@
+html {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  color: var(--color-black);
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "BookmanOldStyle";
+  src: local("BookmanOldStyle-Regular"),
+    url(./fonts/BookmanOldStyle.ttf) format("tff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto-Regular"),
+    url(./fonts/Roboto-Regular.woff2) format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*glob*/
+
+.container {
+  max-width: 345px;
+  margin: 0 auto;
+  padding: 0 15px;
+  background-color: #F6DAFB;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+/* header */
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  width: 100%;
+}
+
+.header__avatar {
+  margin-bottom: 10px;
+  max-width: max-content;
+}
+
+.header__link {
+  Font-family: "BookmanOldStyle-Regular";
+  font-weight: 300;
+  Font-size: 14px;
+  Line-height: 100%;
+}
+
+/* hero */
+
+.hero {
+  margin-bottom: 60px;
+  background-image: url(./img/Hero-mask-group.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.hero__container {
+  position: relative;
+  padding-top: 41px;
+  padding-bottom: 93px;
+  background: linear-gradient(172.1deg, #B48BCA 0.43%, rgba(255, 138, 252, 0) 151.47%);
+}
+
+.hero__title {
+  padding-left: 10px;
+  padding-top: 91.5%;
+  margin-bottom: 20px;
+  max-width: 245px;
+  font-family: 'BookmanOldStyle';
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 113%;
+}
+
+.hero__text {
+  margin-top: -3px;
+  font-family: 'Roboto-Regular';
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 131%;
+}
+
+/* works */
+
+.works__title {
+  margin-bottom: 10px;
+  font-family: 'BookmanOldStyle';
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 113%;
+}
+
+.works__tabs {
+  width: 100%;
+  height: 100%;
+}
+
+.works__tabs__image {
+  display: none;
+}
+
+.tabs-active {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.works__tabs__btn {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 7px;
+  background-color: #7E678B;
+}
+
+.btn-1 {
+  left: 42.9%;
+  bottom: 5.5%;
+}
+
+.btn-2 {
+  left: 46.1%;
+  bottom: 5.5%;
+}
+
+.btn-3 {
+  left: 49.2%;
+  bottom: 5.5%;
+}
+
+.btn-4 {
+  left: 52.4%;
+  bottom: 5.5%;
+}
+
+.btn-5 {
+  left: 55.6%;
+  bottom: 5.5%;
+}
+
+.btn-active {
+  width: 9px;
+  height: 9px;
+  border-radius: 9px;
+}

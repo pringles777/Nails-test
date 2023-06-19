@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nails</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container header__container">
+      <img class="header__avatar" src="./img/Header-icon.png" alt="Аватар Фудина Вера">
+      <a href="#" class="header__link">@V.MANIKURE</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="container hero__container">
+      <section class="hero">
+        <h2 class="hero__title">
+          Я - ФУДИНА ВЕРА
+        </h2>
+        <p class="hero__text">
+          Я&nbsp;предлагаю вам проффесиональные курсы повышения квалификации&nbsp;и обучения маникюру&nbsp;и педикюру.
+        </p>
+      </section>
+
+      <section class="works" id="works">
+        <h2 class="works__title">
+          МОИ РАБОТЫ
+        </h2>
+        <div class="works__tabs">
+          <img data-target="one" class="works__tabs__image tabs-active" src="./img/Works1.png" alt="Фото пример работ">
+          <img data-target="two" class="works__tabs__image" src="./img/Works2.png" alt="Фото пример работ">
+          <img data-target="three" class="works__tabs__image" src="./img/Works3.png" alt="Фото пример работ">
+          <img data-target="four" class="works__tabs__image" src="./img/Works4.png" alt="Фото пример работ">
+          <img data-target="five" class="works__tabs__image" src="./img/Works5.png" alt="Фото пример работ">
+          <button data-path="one" class="works__tabs__btn btn-reset btn-1 btn-active"></button>
+          <button data-path="two" class="works__tabs__btn btn-reset btn-2"></button>
+          <button data-path="three" class="works__tabs__btn btn-reset btn-3"></button>
+          <button data-path="four" class="works__tabs__btn btn-reset btn-4"></button>
+          <button data-path="five" class="works__tabs__btn btn-reset btn-5"></button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
